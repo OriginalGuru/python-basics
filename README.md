@@ -67,3 +67,85 @@ a = 1; b = 2; c = a + b
 long_sum = x + y + z + a + b + c + \
            100 + 200 + 300
 ```
+
+## 3. Logical Operators
+
+Logical operators are essential in decision-making processes.
+Task:
+
+    Explore the use of and, or, and not.
+    Create expressions that evaluate to True or False using these operators.
+
+```python
+is_greater = x > y and y < z
+is_equal = x == y or y == z
+negation = not is_greater
+```
+
+## 4. Getting Help in Python
+
+Python provides built-in functions to get help and explore the capabilities of objects.
+Task:
+
+    Use the dir() function to list the attributes and methods of an object.
+    Use the ? and ?? operators to access the docstring and source code of functions.
+
+```python
+dir(str)
+help(str.lower)
+str.lower?
+str.lower??
+```
+
+Additionally, refer to the [Python documentation](https://docs.python.org/3/) for more detailed syntax and usage.
+
+## 5. Managing Error Messages
+
+Errors are a natural part of programming. Understanding them is crucial for debugging.
+Task:
+
+    Intentionally create common errors (e.g., NameError, TypeError, SyntaxError).
+    Examine the error messages, noting the order of information presented.
+    Identify the type of error and common causes.
+
+```python
+# NameError
+print(undefined_variable)
+
+# TypeError
+result = "string" + 5
+
+# SyntaxError
+if x > y
+    print("x is greater")
+```
+
+## 6. Using Special Characters: {}, (), and []
+
+Python uses different brackets for various purposes:
+
+    {}: Used for dictionaries and string formatting.
+    (): Used for tuples, function calls, and expressions.
+    []: Used for lists, indexing, and slicing.
+
+Task:
+
+    Create a dictionary, tuple, and list.
+    Access elements and perform operations on them.
+
+```python
+# Dictionary
+my_dict = {"name": "Python", "version": 3.9}
+
+# Tuple
+my_tuple = (1, 2, 3)
+
+# List
+my_list = [1, 2, 3, 4, 5]
+
+# Accessing elements
+print(my_dict["name"])
+print(my_tuple[0])
+print(my_list[2:4])
+```
+
