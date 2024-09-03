@@ -198,11 +198,15 @@ The relationship between a waves characteristic length (or inverse length) and i
 
 For light in vacuum, some common ways of expressing this dispersion relation are:
 
-$f = c/\lambda$ : the linear frequency is related to the wavelength, $\lambda$, by the speed of light, $c$. 
-$\omega = c k$ : the angular frequency is related to the angular wavevector/wavenumber, $k$, by the speed of light. 
-$\lambda/T = c$ : here $T$ is the period.  
-$E = h f = \hbar \omega = \hbar c k $ : here $h$ is Planck's constant and $\hbar$ is the reduced Planck's constant.  
-$k = 2 \pi \nu$ : $\nu$ is the linear wavenumber.  
+    $f = c/\lambda$ : the linear frequency is related to the wavelength, $\lambda$, by the speed of light, $c$. 
+    
+    $\omega = c k$ : the angular frequency is related to the angular wavevector/wavenumber, $k$, by the speed of light. 
+    
+    $\lambda/T = c$ : here $T$ is the period.  
+    
+    $E = h f = \hbar \omega = \hbar c k $ : here $h$ is Planck's constant and $\hbar$ is the reduced Planck's constant.  
+    
+    $k = 2 \pi \nu$ : $\nu$ is the linear wavenumber.  
 
 Check the units to help you remember these dispersion relations.
 
