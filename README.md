@@ -138,6 +138,7 @@ Task:
     Intentionally create common errors (e.g., NameError, TypeError, SyntaxError).
     Examine the error messages, noting the order of information presented.
     Identify the type of error and common causes.
+    Fix the errors.
 
 ```python
 # NameError
