@@ -8,187 +8,19 @@ By the end of this assignment, you will:
 
 1. Understand and use basic arithmetic operations in Python.
 2. Assign and manipulate variables.
-3. Use basic comparisson and logical operators.
-4. Seek help in Python using built-in functions.
-5. Manage and interpret some common error messages.
-6. Use several special characters (`;`, `\`, `{}`, `()`, and `[]`) in basic Python code.
+3. Numerical Types, Strings, and Type Checking
+4. Use basic comparison and logical operators.
+5. Seek help in Python using built-in functions.
+6. Manage and interpret some common error messages.
+7. Use several special characters (`;`, `\`, `{}`, `()`, and `[]`) in basic Python code.
 
 ## Getting Started
 
-Clone this repository to your local machine and open the provided Jupyter Notebook (`python_fundamentals.ipynb`) in Jupyter Notebook.
+Clone this repository to your local machine and open the provided Jupyter Notebook (`python_basics.ipynb`).
 
-## 1. Basic Arithmetic Operations in Python
+## Assignment -- Part 1: Work through the Jupyter Notebook
 
-Python provides several native operations that you will use frequently. In this section, you will practice the following operations:
-
-- Addition (`+`)
-- Subtraction (`-`)
-- Multiplication (`*`)
-- Division (`/`)
-- Exponentiation (`**`)
-
-There are also a few less common operations that you might see:
-
-- Modulus (`%`)
-- Floor Division (`//`)
-
-### Task:
-
-1. Create variables `a` and `b` with values of your choice.
-2. Perform each of the above operations using `a` and `b`.
-3. Print the results.
-
-```python
-a = 10.2
-b = 3
-
-# Example:
-addition = a + b
-print(f"Addition: {addition}")
-# Repeat for other operations
-```
-
-## 2. Variable Assignment and Manipulation
-
-Variables in Python are used to store data that can be reused and manipulated.
-Task:
-
-    Assign values to variables x, y, and z.
-    Reassign and manipulate these variables.
-    Explore the use of the semicolon (;) to write multiple statements on a single line.
-    Use the backslash (\) to continue long lines of code.
-
-```python
-x = 5
-y = 10
-z = x + y
-
-# Using semicolon
-a = 1; b = 2; c = a + b
-
-# Using backslash
-long_sum = x + y + z + a + b + c + \
-           100 + 200 + 300
-```
-
-## 3. Comparison and Logical Operators
-Comparison Operators
-
-Comparison operators are used to compare two values:
-
-    <: Less than
-    >: Greater than
-    ==: Equal to
-    !=: Not equal to
-    <=: Less than or equal to
-    >=: Greater than or equal to
-
-Logical Operators
-
-Logical operators combine multiple comparison expressions:
-
-    and: Returns True if both expressions are true.
-    or: Returns True if at least one expression is true.
-    not: Inverts the boolean value of an expression.
-
-Task:
-
-    Use comparison operators to evaluate conditions between two variables.
-    Combine these conditions using logical operators to create more complex expressions.
-
-```python
-x = 7
-y = 10
-
-# Comparison operators
-is_x_less_than_y = x < y  # True
-is_y_equal_to_10 = y == 10  # True
-
-# Logical operators
-is_x_between_5_and_15 = (x > 5) and (x < 15)  # True
-is_y_10_or_greater = y >= 10 or y < 5  # True
-is_not_equal_to_7 = not (x == 7)  # False
-
-print(is_x_less_than_y)
-print(is_x_between_5_and_15)
-```
-
-## 4. Getting Help in Python
-
-Python provides built-in functions to get help and explore the capabilities of objects.
-Task:
-
-    Use the dir() function to list the attributes and methods of an object.
-    In Jupyter Notebook, use the ? and ?? operators to access the docstring and source code of functions.
-
-```python
-dir(str)
-help(str.lower)
-str.lower?
-str.lower??
-```
-
-Additionally, refer to the [Python documentation](https://docs.python.org/3/) for more detailed syntax and usage.
-
-## 5. Managing Error Messages
-
-Errors are a natural part of programming. Understanding them is crucial for debugging.
-Task:
-
-    Intentionally create common errors (e.g., NameError, TypeError, SyntaxError).
-    Examine the error messages, noting the order of information presented.
-    Identify the type of error and common causes.
-    Fix the errors.
-
-```python
-# NameError
-print(undefined_variable)
-```
-
-```python
-# TypeError
-result = "string" + 5
-```
-
-```python
-# SyntaxError
-if x > y
-    print("x is greater")
-```
-
-## 6. Lists, tuples, and disctionaries: [], (), and {}
-
-Python uses different brackets for various purposes:
-
-    []: Used for lists, indexing, and slicing.
-    (): Used for tuples, function calls, and expressions.
-    {}: Used for dictionaries and string formatting.
-
-Task:
-
-    Create a dictionary, tuple, and list.
-    Access elements and perform operations on them.
-
-Note:
-    Python starts indexing at 0, so the first element of a list 'my_list' would be mylist(0)
-
-```python
-# Dictionary
-my_dict = {"name": "Python", "version": 3.9}
-
-# Tuple
-my_tuple = (1, 2, 3)
-
-# List
-my_list = [1, 2, 3, 4, 5]
-
-# Accessing elements
-print(my_dict["name"])
-print(my_tuple[0])
-print(my_list[2:4])
-```
-
-## Assignment: Creating a Conversion Dictionary
+## Assignment -- Part 2: Creating a Conversion Dictionary
 
 Objective:
 The goal of this assignment is to create a simple Python dictionary that stores conversion factors between different descriptors of waves  and a Boolean flag indicating whether the relationship between the units is an inverse relationship.
